@@ -7,11 +7,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import model.Candidate;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.CandidatePage;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -19,6 +16,8 @@ import java.util.Map;
 import static util.util.getCandidateFromTableDiff;
 
 public class LoginStep extends BaseUtil {
+
+    private final String urlBase = "http://localhost:4200";
 
     private final List<List<Candidate>> candidateTableHistory
             = new ArrayList<>();
@@ -42,7 +41,7 @@ public class LoginStep extends BaseUtil {
         scenarioDef.createNode(
                 new GherkinKeyword("Given"),
                 "I navigate to Angular");
-        Driver.navigate().to("http://localhost:4200");
+        Driver.navigate().to(urlBase);
 
     }
 
@@ -75,7 +74,7 @@ public class LoginStep extends BaseUtil {
                     break;
                 }
                 if(i!= 0 && i%10 == 0){
-                    Driver.navigate().to("http://localhost:4200"); //try to refresh the page
+                    Driver.navigate().to(urlBase); //try to refresh the page
                 }
                 if (i == 99) {
                     throw new RuntimeException("Candidate table never updated with new candidate!");
