@@ -28,6 +28,7 @@ public class Hook extends BaseUtil {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox"); //required for CI/CD workflows
+        chromeOptions.addArguments("--remote-allow-origins=*");
 
         //required for all log levels in the browser console
         LoggingPreferences logPrefs = new LoggingPreferences();
