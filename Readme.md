@@ -1,5 +1,32 @@
+## No Setup: This project should operate out of the box after loading the pom.xml file
+
+## Troubleshooting
+If you see a "connection refused message"
+you need to be running the Frontend, see below
+
+## Backend
+JudeaDumont/java-ecosystem-project
+https://github.com/JudeaDumont/java-ecosystem-project.git
+
+## Frontend
+JudeaDumont/angular8-frontend
+https://github.com/JudeaDumont/angular8-frontend.git
+
+## Front End Automated Test Suite
+JudeaDumont/SeleniumWithCucucumber
+https://github.com/JudeaDumont/SeleniumWithCucucumber.git
+
+## Pipeline
+Github-actions
+.github\workflows\github-actions.yml
+
+## Recommended IDE
+IntelliJ
+Diagrams.net plugin
+Lombok plugin
+
 # SeleniumWithCucumber
-This is an sample project to demonstrate how to work with Selenium and cucumber for Java
+This is a sample project to demonstrate how to work with Selenium and cucumber for Java
 
 [![Java CI with Maven](https://github.com/executeautomation/SeleniumWithCucucumber/actions/workflows/maven_new.yml/badge.svg?branch=master)](https://github.com/executeautomation/SeleniumWithCucucumber/actions/workflows/maven_new.yml)
 
@@ -37,5 +64,4 @@ https://www.udemy.com/cucumber-with-selenium/
 
 ### For more articles and videos
 Visit http://www.executeautomation.com
-
 

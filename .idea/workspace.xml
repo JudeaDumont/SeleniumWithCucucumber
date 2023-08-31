@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48c7d8d-1416-490f-bf74-4a49f1e42449" name="Default" comment="moving to java 20">
+    <list default="true" id="f48c7d8d-1416-490f-bf74-4a49f1e42449" name="Default" comment="moving to java 20&#10;-i want it to push workspace so people who check it out have jdk 20 already selected in intelliJ">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven_new.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven_new.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -655,7 +656,7 @@
       <option name="project" value="LOCAL" />
       <updated>1691017223188</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView">
@@ -687,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I want updates to the selenium repo to build the full project and run tests against it was well." />
     <MESSAGE value="Extra step in the UI test, add candidate" />
     <MESSAGE value="Implementation for getting candidates from the angular candidate table" />
     <MESSAGE value="Test for adding and deleting a candidate all the while making sure the tbale updates appropriately." />
@@ -712,7 +712,8 @@
     <MESSAGE value="updating web manager and adding &#10;        chromeOptions.addArguments(&quot;--remote-allow-origins=*&quot;);&#10;        &#10;        error: Java.io.IOException: Invalid Status code=403 text=Forbidden&#10;        for the web driver" />
     <MESSAGE value="Added missing module to project" />
     <MESSAGE value="moving to java 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving to java 20" />
+    <MESSAGE value="moving to java 20&#10;-i want it to push workspace so people who check it out have jdk 20 already selected in intelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving to java 20&#10;-i want it to push workspace so people who check it out have jdk 20 already selected in intelliJ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
